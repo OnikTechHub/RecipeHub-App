@@ -9,11 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "RecipeHub - Recipe Sharing Platform",
   description: "Explore secret culinary methods",
-  manifest: "/manifest.json",
-  icons: {
-    icon: "/icon-192.png",
-    apple: "/icon-512.png",
-  },
 };
 
 export default function RootLayout({ children }) {
